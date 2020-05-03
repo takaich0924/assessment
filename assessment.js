@@ -52,7 +52,7 @@ userNameInput.onkeydown = function(event) {
   if (event.key === 'Enter') {
     assessmentButton.onclick();
    }
-  ;
+  };
 
 const answers = [
   '{userName}のいいところは声です。{userName}の特徴な声はみんなを惹きつけ、心に残ります。',
