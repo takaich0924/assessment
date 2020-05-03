@@ -48,7 +48,7 @@ assessmentButton.onclick = function () {
   script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
   tweetDivided.appendChild(script);
 };
-userNameInput.onkeydown = event => {
+userNameInput.onkeydown = function(event) {
   if (event.key === 'Enter') {
     assessmentButton.onclick();
    }
